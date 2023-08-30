@@ -6,9 +6,14 @@
 }
 
 body{
-    font-family: 'Roboto' ;
+    font-family: 'Roboto', sans-serif ;
+    font-weight: 400;
+    color: var(--c-text);
+    background-color: #fff;
 
 }
+
+/*header*/
 
 .nav>a{
     color: var(--c-background-hero);
@@ -28,8 +33,10 @@ text-transform: uppercase;
     cursor: pointer;
 }
 
+
 .header-link>a{
     color: var(--c-background-hero);
+    font-weight: 500;
 }
 
 .header-link>a:hover,
@@ -53,4 +60,24 @@ text-transform: uppercase;
 .contacts-link>a:focus {
     color: var(--c-brand);
     cursor: pointer;
+}
+
+/*hero section*/
+.hero-section{
+    background-color: var(--c-background-hero);
+}
+
+.hero-title{
+    color:#fff;
+    font-weight: 700;
+    text-align: center;
+}
+
+.button-hero{
+    background-color: var(--c-brand);
+    color: #fff;
+    font-weight: 500;
+    padding: 16px, 32px;
+    border-radius: 4px;
+    display: inline-flex;
 }
