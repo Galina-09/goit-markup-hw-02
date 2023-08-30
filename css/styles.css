@@ -15,6 +15,14 @@ body {
   background-color: #fff;
 }
 
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
 /*header*/
 
 .logo {
@@ -25,7 +33,6 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-decoration: none;
 }
 
 .logo .accent-logo {
@@ -61,9 +68,9 @@ body {
   color: var(--c-text);
 }
 
-.contacts-link > a:hover,
-.contacts-link > a:focus {
-  color: var(--c-brand);
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--c-hover);
   cursor: pointer;
 }
 
