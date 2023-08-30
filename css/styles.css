@@ -10,6 +10,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
+  font-style: normal;
   color: var(--c-text);
   background-color: #fff;
 }
@@ -24,9 +25,10 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
-.accent {
+.logo .accent-logo {
   color: var(--c-background-hero);
 }
 
@@ -103,6 +105,7 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .benefits-text {
@@ -178,9 +181,14 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none;
 }
 .footer-logo .accent-footer {
   color: var(--c-background-secondary);
+}
+
+.footer-logo:hover {
+  color: var(--c-hover);
 }
 
 .footer-text {
