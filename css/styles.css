@@ -31,9 +31,7 @@ body {
 }
 
 .logo:hover,
-.accent:hover,
-.logo:focus,
-.accent:focus {
+.logo:focus {
   color: var(--c-hover);
   cursor: pointer;
 }
