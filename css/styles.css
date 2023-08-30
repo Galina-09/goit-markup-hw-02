@@ -1,0 +1,56 @@
+:root{
+    --c-brand:#4D5AE5;
+    --c-background-hero:#2E2F42;
+    --c-background-secondary: #F4F4FD;
+    --c-text:#434455;
+}
+
+body{
+    font-family: 'Roboto' ;
+
+}
+
+.nav>a{
+    color: var(--c-background-hero);
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+.logo{
+text-transform: uppercase;
+}
+
+.logo:hover,
+.logo:focus{
+    color: var(--c-brand);
+    cursor: pointer;
+}
+
+.header-link>a{
+    color: var(--c-background-hero);
+}
+
+.header-link>a:hover,
+.header-link>a:focus {
+    color: var(--c-brand);
+    cursor: pointer;
+}
+
+.logo .accent{
+    color: var(--c-brand);
+}
+
+
+.contacts-link>a{
+    font-weight: 500;
+    line-height: 1.17;
+    color: var(--c-text);
+}
+
+.contacts-link>a:hover,
+.contacts-link>a:focus {
+    color: var(--c-brand);
+    cursor: pointer;
+}
