@@ -28,6 +28,9 @@ body{
     font-weight: 700;
 }
 
+.logo .accent {
+    color: var(--c-background-hero);
+}
 .logo:hover,
 .logo:focus{
     color: var(--c-hover);
@@ -48,9 +51,7 @@ body{
     cursor: pointer;
 }
 
-.logo .accent{
-    color: var(--c-background-hero);
-}
+
 
 .address{
     font-style: normal;
@@ -83,10 +84,13 @@ body{
 }
 
 .button-hero{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
     background-color: var(--c-brand);
     color: #fff;
     font-weight: 500;
     line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
 .button-hero:hover,
@@ -112,6 +116,33 @@ body{
 }
 
 /*Our Team section*/
+.section-team{
+    background-color: var(--c-background-secondary);
+}
 
+.team-title{
+    color: var(--c-background-hero);
+    font-size:36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+}
 
+.team-li{
+    background-color: #fff;
+}
+
+.team-name{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--c-background-hero);
+}
+
+.team-text{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 
