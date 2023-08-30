@@ -17,24 +17,20 @@ body{
 
 /*header*/
 
-.nav>a{
+.logo{
+    color: #4D5AE5;
+    text-transform: uppercase;
+    line-height: 1.17;;
+    letter-spacing: 0.03em;
     color: var(--c-background-hero);
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
 }
 
-
-.logo{
-    color: #4D5AE5;
-    text-transform: uppercase;
-    line-height: 1.17;;
-    letter-spacing: 0.03em
-}
-
 .logo:hover,
 .logo:focus{
-    color: var(--c-brand);
+    color: var(--c-hover);
     cursor: pointer;
 }
 
