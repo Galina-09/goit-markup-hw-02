@@ -3,10 +3,12 @@
     --c-background-hero:#2E2F42;
     --c-background-secondary: #F4F4FD;
     --c-text:#434455;
+    --c-hover:#404BBF;
 }
 
 body{
     font-family: 'Roboto', sans-serif ;
+    font-size: 16px;
     font-weight: 400;
     color: var(--c-text);
     background-color: #fff;
@@ -24,7 +26,10 @@ body{
 
 
 .logo{
+    color: var(--c-brand);
 text-transform: uppercase;
+line-height: 1.17;;
+letter-spacing: 0.03em
 }
 
 .logo:hover,
@@ -37,6 +42,7 @@ text-transform: uppercase;
 .header-link>a{
     color: var(--c-background-hero);
     font-weight: 500;
+    
 }
 
 .header-link>a:hover,
@@ -46,7 +52,7 @@ text-transform: uppercase;
 }
 
 .logo .accent{
-    color: var(--c-brand);
+    color: var(--c-background-hero);
 }
 
 
@@ -68,6 +74,9 @@ text-transform: uppercase;
 }
 
 .hero-title{
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
     color:#fff;
     font-weight: 700;
     text-align: center;
@@ -77,7 +86,31 @@ text-transform: uppercase;
     background-color: var(--c-brand);
     color: #fff;
     font-weight: 500;
+    line-height: 1.5;
     padding: 16px, 32px;
     border-radius: 4px;
     display: inline-flex;
 }
+
+.button-hero:hover,
+.button-hero:focus{
+    background-color: var(--c-hover);
+    cursor: pointer;
+}
+
+/*Benefits section*/
+.benefits-section{
+
+}
+
+.benefits-title{
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;}
